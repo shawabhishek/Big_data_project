@@ -10,3 +10,4 @@ command_2)Which month has seen the most number of cancellations due to bad weath
 command_3)Top ten origins with the highest AVG departure delay
 command_4)Which route (origin & destination) has seen the maximum diversion?
 
+Flight.jar is a mapreduce function which tells Flight per Destination.
