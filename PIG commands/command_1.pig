@@ -22,5 +22,5 @@ A2 = foreach A1 generate (chararray)$0 as dest,(chararray)$2 as city,(chararray)
 
 joined_table = join Result by $0, A2 by dest;
 
-dump joined_table;
+STORE joined_table INTO ' /Pigprac/output/Result ' USING PigStorage (',');
 
