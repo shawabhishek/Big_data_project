@@ -27,4 +27,4 @@ Final = foreach Joined generate $0,$1,$2,$4;
 
 Final_Result = ORDER Final by $3 DESC;
 
-dump Final_Result;
+STORE Final_Result INTO '/Pigprac/Output/Result' USING PigStorage (',');
